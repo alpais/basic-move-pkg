@@ -1,0 +1,23 @@
+<package>
+  <description brief="kukaBasicMovementPkg">
+
+     kukaBasicMovementPkg
+
+  </description>
+  <author>alpais</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kukaBasicMovementPkg</url>
+  <depend package="MathLib"/>
+  <depend package="StdTools"/>
+  <depend package="RobotLib"/>
+  <depend package="RTK_pkg_tools"/>
+  <depend package="MotionGenerators"/>
+  <depend package="KUKARobotModel"/>
+  <depend package="FRILibrary_ros"/>
+  <export> <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath,${prefix}/lib -lkukaBasicMovementModule "/> </export>
+
+
+</package>
+
+

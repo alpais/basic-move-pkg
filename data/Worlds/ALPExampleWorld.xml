@@ -1,0 +1,33 @@
+<World>
+
+        <Object>
+                Ground
+                <BBoxShape>
+                        <Shape>Floor</Shape>
+                </BBoxShape>
+        </Object>
+        
+         <Object> wrist
+                <Origin> -0.45 0.35 0.2 </Origin>
+		<Orient>
+		    0.9010    0.4339         0
+		   -0.2169    0.4505   -0.8660
+		   -0.3758    0.7803    0.5000
+		</Orient>
+                <RefSize>0.08</RefSize>
+                <GfxShape>               
+                        <Shape> Sphere
+	                        <Origin> -0.05 -0.15 0 </Origin>
+	                        <Color> 0.2 0.2 0.85 </Color>      
+	                        <Scale>   0.10 0.30 0.03 </Scale>
+                        </Shape> 
+                </GfxShape>
+        </Object>
+
+</World>
+
+		<!-- <Orient>
+			1 0 0
+			0 0.7 -0.7
+			0 0.7  0.7
+		</Orient> -->
